@@ -1,0 +1,187 @@
+.header {
+  background-color: rgba(26, 33, 43, 1);
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4vw;
+  align-items: center;
+  padding-right: 4vw;
+}
+
+.summarise {
+  color: rgba(218, 161, 52, 1);
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 157.5%;
+  /* identical to box height, or 32px */
+
+  color: #daa134;
+}
+
+.logoStyle {
+  height: 6vh;
+  width: 6vh;
+  object-fit: contain;
+}
+
+.secondContainerLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.container {
+  background-color: rgba(26, 33, 43, 1);
+  width: 100%;
+}
+
+.bar {
+  border: 6px solid #daa134;
+  transform: rotate(0deg);
+  background-color: #daa134;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.barinnerStyle {
+  color: #daa134;
+  background-color: #daa134;
+}
+
+.ltlamen {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 157.5%;
+  color: #daa134;
+}
+
+.convert {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 157.5%;
+  /* identical to box height, or 35px */
+
+  color: #daa134;
+}
+
+.secondContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  /* background-color: rgba(29, 36, 46, 1); */
+  background-color: rgba(29, 36, 46, 1);
+  padding: 10px 20px 10px 20px;
+  margin-top: 30px;
+}
+
+.googleStyle {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.addChrome {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 157.5%;
+  /* identical to box height, or 22px */
+
+  color: #1d242e;
+}
+
+.buttonChrome {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 50px;
+}
+
+.thirdContainer {
+  background-color: rgba(26, 33, 43, 1);
+  /* padding: 10px 20px 10px 20px; */
+  margin-top: 30px;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  display: flex;
+  /* background-color: green; */
+  justify-content: space-between;
+}
+
+.inputContainer {
+  /* background-color: rgba(29, 36, 46, 1); */
+  background-color: rgba(29, 36, 46, 1);
+  /* background-color: purple; */
+  width: 100%;
+  height: 60vh;
+  text-align: left;
+  border: none;
+  padding: 30px;
+  line-height: 1.4;
+  vertical-align: top;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  resize: none;
+  border-radius: 50px;
+  margin: 0px 10px;
+}
+
+.inputStyle {
+  width: 100%;
+  height: 100%;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(29, 36, 46, 1);
+  vertical-align: top;
+  line-height: 1.4;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  resize: none;
+  border: none;
+  font-size: 25px;
+}
+
+.inputStyle:focus {
+  outline: none;
+}
+
+textarea::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.inputContainer:focus {
+  outline: none;
+}
+
+.buttonText {
+  /* font-family: "Outfit"; */
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 19px;
+  /* line-height: 157.5%; */
+  /* identical to box height, or 30px */
+  /* text-align: right; */
+  padding: 15px 45px;
+  background-color: rgba(26, 33, 43, 1);
+  color: #daa134;
+  position: absolute;
+  left: 720px;
+  bottom: 130px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px orange;
+}
